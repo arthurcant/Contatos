@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto:300i,400,400i,500,700|Material+Icons&display=swap);
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.field-validation-error {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.close-alert{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    border-radius: 15px;
+    margin-top:10px;
+    width: 30px;
+    height: 31px;
+}

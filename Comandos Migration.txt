@@ -1,0 +1,5 @@
+//Criar a Migration. OBS: Ao rodar esse comando irá pedir um nome:
+Add-Migration -Context BancoContext
+
+//Executar a Migration para criar a tabela
+Update-Database -Context BancoContext
